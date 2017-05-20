@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Ejemplo 03</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h1>Ejemplo 03</h1>
+    <hr/>
+    <p>Cargar videos desde una lista y reproducirlos en pantalla.</p>
+    <hr/>
+
+    <label for="select">Videos</label>
+    <select id="select">
+        <option value="dm.mp4">dm.mp4</option>
+        <option value="dm1.mp4">dm1.mp4</option>
+    </select>
+    <button type="button" onclick="reproducirVideo(select.value)">reproducir video</button>
+    <button type="button" onclick="pararVideo()">parar video</button>
+    <hr/>
+    <h3 id="porcentaje"></h3>
+    <video id="video" type="video/mp4" width="1024" height="450" controls>
+        Video No soportado en tu navegador
+    </video>
+
+    <script>
+
+        var timeId=0;
+        var video = document.getElementById('video');
+
+        function reproducirVideo(url) {
+            
+            video.src = 'video/' + url;
+            video.play();
+
+            timeId=setInterval(()=>{
+                console.log(url);
+                document.getElementById('porcentaje').innerText= parseInt((video.currentTime*100)/video.duration)+'%';
+            },500);
+
+        }
+        function pararVideo(){
+            video.pause();
+            clearInterval(timeId);
+        }
+    </script>
+</body>
+
+</html>
