@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Ejemplo 01</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <h1>Ejemplo 01</h1>
+    <hr/>
+    <p>Dibujar puntos dispersos en un canvas.</p>
+    <button type="button" onclick="dibujar()">Dibujar</button>
+    <br/>
+    <canvas width="1200" height="1024" id="canvas"></canvas>
+
+    <script>
+        function dibujar() {
+
+            setInterval(function () {
+
+                var canvas = document.getElementById('canvas');
+                if (canvas.getContext) {
+                    var ctx = canvas.getContext('2d');
+                    ctx.fillStyle = "rgba(" + (Math.random() * 255) + "," + (Math.random() * 255) + "," + (Math
+                        .random() * 255) + ")";
+                    var x, y;
+                    let point = Math.random() * 5 + 1;
+                    for (var i = 0; i < 100; i++) {
+                        x = Math.random() * canvas.width;
+                        y = Math.random() * canvas.height;
+                        ctx.fillRect(x, y, point, point);
+                    }
+                }
+
+            }, 500);
+        }
+    </script>
+</body>
+
+</html>
