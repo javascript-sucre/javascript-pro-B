@@ -8,7 +8,7 @@ var persona = {
     nombre: 'alberto',
     edad: 34
 };
-var persona = {
+var persona2 = {
     nombre: 'antonio',
     edad: 31
 };
