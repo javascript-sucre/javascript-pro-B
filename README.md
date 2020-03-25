@@ -1,16 +1,8 @@
-# Curso de Javascript | javascript-pro-B
+# Javascript (B)
 
-Material del curso de "Javascript Pro" del Grupo "B" (Sábado)
+Material del curso de "Javascript" Grupo "B"
 
-----------
-
-<b>Gratuito</b> - 8 horas 
-
-Lugar : “ Laboratorio IITIC en la Facultad de Tecnología, Regimientos Campos #180 “
-
-----------
-
-<b>Clase 01</b> - 2 horas 
+<b>Clase 01</b>
  
 + Introducción
 + Navegadores Web
@@ -21,9 +13,7 @@ Lugar : “ Laboratorio IITIC en la Facultad de Tecnología, Regimientos Campos 
 + Funciones I
 + Funciones II - call , apply
 
-Sábado 20 de  mayo del 2017 hrs 11 a 13
-
-<b>Clase 02</b> - 2 horas 
+<b>Clase 02</b> 
  
 + Arrays
 + P.O.O
@@ -32,33 +22,28 @@ Sábado 20 de  mayo del 2017 hrs 11 a 13
 + DOM
 + jQuery
 
-Sábado 03 de junio del 2017 hrs 11 a 13
 
 
-<b>Clase 03</b> - 2 horas 
+<b>Clase 03</b> 
  
 + Cliente / servidor
 + Ajax
 + Nodejs y npm
 + Browserify
 
-Sábado 10 de junio del 2017 hrs 11 a 13
 
 
-
-
-<b>Clase 04</b> - 2 horas 
+<b>Clase 04</b> 
  
 + Patrones de Diseño
 + EcmaScript 6
 + Babel Js
 + Typescript
- 
-Sábado 17 de junio del 2017 hrs 11 a 13
 
+------
 
-Alan Walter - [alanwalter45@gmail.com](alanwalter45@gmail.com)
+Alan Walter - [alanwalter45](alanwalter45@gmail.com)
 
-José Chirinos -  [josealexcba@gmail.com](josealexcba@gmail.com)
+José Chirinos -  [josealexcba](josealexcba@gmail.com)
 
-Bolivia - Sucre
+#### Bolivia - Sucre
